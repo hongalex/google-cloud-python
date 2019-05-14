@@ -22,19 +22,19 @@ from google.cloud.vision_v1.gapic import image_annotator_client
 from google.cloud.vision_v1.gapic import product_search_client
 
 
-class ProductSearchClient(product_search_client.ProductSearchClient):
-    __doc__ = product_search_client.ProductSearchClient.__doc__
+class ImageAnnotatorClient(image_annotator_client.ImageAnnotatorClient):
+    __doc__ = image_annotator_client.ImageAnnotatorClient.__doc__
     enums = enums
 
 
-class ImageAnnotatorClient(image_annotator_client.ImageAnnotatorClient):
-    __doc__ = image_annotator_client.ImageAnnotatorClient.__doc__
+class ProductSearchClient(product_search_client.ProductSearchClient):
+    __doc__ = product_search_client.ProductSearchClient.__doc__
     enums = enums
 
 
 __all__ = (
     'enums',
     'types',
-    'ProductSearchClient',
     'ImageAnnotatorClient',
+    'ProductSearchClient',
 )
