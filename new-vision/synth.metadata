@@ -1,24 +1,3 @@
 {
-  "updateTime": "2019-05-14T22:26:16.310319Z",
-  "sources": [
-    {
-      "generator": {
-        "name": "artman",
-        "version": "0.19.0",
-        "dockerImage": "googleapis/artman@sha256:d3df563538225ac6caac45d8ad86499500211d1bcb2536955a6dbda15e1b368e"
-      }
-    }
-  ],
-  "destinations": [
-    {
-      "client": {
-        "source": "googleapis",
-        "apiName": "vision",
-        "apiVersion": "v1",
-        "language": "python",
-        "generator": "gapic",
-        "config": "google/cloud/vision/artman_vision_v1.yaml"
-      }
-    }
-  ]
+  "updateTime": "2019-05-15T00:10:54.340056Z"
 }

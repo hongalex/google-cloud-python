@@ -5,6 +5,6 @@ import synthtool.gcp as gcp
 
 gapic = gcp.GAPICGenerator()
 
-library = gapic.py_library("vision", "v1", include_protos=True)
+library = gapic.py_library("vision", "v1", include_protos=True, generator_args=["--dev_samples"])
 
 synth.copy(library)
